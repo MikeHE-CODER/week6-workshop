@@ -24,3 +24,4 @@ public:
   void setHealth(int healt) { health = healt; };
   string getName() { return name; };
 };
+#endif
