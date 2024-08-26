@@ -15,7 +15,7 @@ public:
   }
   void takedamage(int damage) {
     health = health - damage;
-    std::cout << name << " takes " << damageP
+    std::cout << name << " takes " << damage
               << " damage. Remaining health: " << health << "\n";
   };
   int getHealth() { return health; }
